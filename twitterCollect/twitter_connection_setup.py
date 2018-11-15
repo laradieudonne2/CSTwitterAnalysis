@@ -1,7 +1,12 @@
 import tweepy
 # We import our access keys:
-from tweet_collection.credentials import *
 
+CONSUMER_KEY    = 'sAkOULOPAWjRMzvSx7gvSfefb'
+CONSUMER_SECRET = 'KQZBAjwRXLs3tTUoLfANAuyyyTPgVdlDWy2QPXfBhJZWKOOYcx'
+
+# Access:
+
+from TwitterPredictor.credentials import *
 def twitter_setup():
     """
     Utility function to setup the Twitter's API
@@ -15,3 +20,4 @@ def twitter_setup():
     # Return API with authentication:
     api = tweepy.API(auth)
     return api
+
