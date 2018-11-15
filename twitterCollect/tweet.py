@@ -14,8 +14,8 @@ def collect():
 def collect_by_user(user_id):
     connexion = twitter_connection_setup.twitter_setup()
     statuses = connexion.user_timeline(id = user_id, count = 200)
-    for status in statuses:
-        print(status.text)
+    #for status in statuses:
+        #print(status.text)
     return statuses
 
 #collect_by_user("@EmmanuelMacron")

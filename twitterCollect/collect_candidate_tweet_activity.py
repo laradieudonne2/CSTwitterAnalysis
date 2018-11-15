@@ -11,7 +11,7 @@ def get_replies_to_candidate(num_candidate,date_début=992433028155654144):
        #query pour retrouver des tweets repondant a l'utilisateur num_candidate
 
         query = 'to:'+ str(num_candidate)
-        print (full_tweet.text)
+        print (full_tweet)
         for tweet in connexion.search(q=query, since_id=date_début, result_type='recent',timeout=999999):
 
             #si le tweet renvoye par la requete possede un champs "in reply_to__status_id_str" cest a dire si cest une reponse a un tweet
@@ -19,7 +19,7 @@ def get_replies_to_candidate(num_candidate,date_début=992433028155654144):
            if hasattr(tweet, 'in_reply_to_status_id_str'):
                 # si c'ets une reponse au tweet actuel (full_tweet) du candidat
                if (tweet.in_reply_to_status_id_str==full_tweet.id_str):
-                   replies.append(tweet)
+                   replies.append(tweet.text)
                    print(tweet.text)
     return replies
 
@@ -42,7 +42,7 @@ def get_retweets_of_candidate(num_candidate, date_debut=992433028155654144):
                     print(tweet.text)
     return retweet
 
-#get_replies_to_candidate(1976143068)
+get_replies_to_candidate(1976143068)
 #get_retweets_of_candidate(1976143068) # num d'Emmanuel Macron
 
 def collect_en_temps_reel(num_candidate):
