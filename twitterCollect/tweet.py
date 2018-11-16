@@ -1,5 +1,4 @@
 
-
 from twitterCollect import twitter_connection_setup
 
 def collect():
@@ -18,4 +17,5 @@ def collect_by_user(user_id):
         #print(status)
     return statuses
 
-collect_by_user("@EmmanuelMacron")
+#print(type(collect_by_user("@EmmanuelMacron")))
+
