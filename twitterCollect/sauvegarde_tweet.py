@@ -4,7 +4,7 @@ from twitterCollect.tweet import *
 
 tweets=collect_by_user("@EmmanuelMacron")
 tweet=tweets[0]
-#print(tweet)
+
 def store_tweets(tweets,filename):
     list_tweet=[]
     for tweet in tweets:
@@ -20,6 +20,15 @@ def store_tweets(tweets,filename):
 
 
 #store_tweets(tweets,"essai2")
+
+
+def store_tweets_text(tweets,filename): #on a que le text sous forme de string dans le fichier.
+
+    with open(filename+ ".json", "a", encoding='utf8') as write_file:
+
+        for tweet in tweets:
+            json.dump(tweet.text, write_file, ensure_ascii=False)
+
 
 import pandas as pd
 
@@ -40,4 +49,20 @@ def creer_dataframe_a_partir_fichier(fichier):
         print(s)
     return list_dataframe
 
-creer_dataframe_a_partir_fichier("essai2.json")
+#creer_dataframe_a_partir_fichier("essai2.json")
+
+import numpy as np
+def creer_dataframe_sous_forme_de_tableau(tweets):
+
+   tableau = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['contenu'])
+   #on rajoute des colommnes à notre tableau
+   tableau['len']  = np.array([len(tweet.text) for tweet in tweets])
+   tableau['ID']   = np.array([tweet.id for tweet in tweets])
+   tableau['Date'] = np.array([tweet.created_at for tweet in tweets])
+   tableau['Source'] = np.array([tweet.source for tweet in tweets])
+   tableau['Likes']  = np.array([tweet.favorite_count for tweet in tweets])
+   tableau['RTs']    = np.array([tweet.retweet_count for tweet in tweets])
+   return tableau
+
+
+#print(creer_dataframe_sous_forme_de_tableau(tweets))
