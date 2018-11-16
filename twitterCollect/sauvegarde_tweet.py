@@ -66,3 +66,6 @@ def creer_dataframe_sous_forme_de_tableau(tweets):
 
 
 #print(creer_dataframe_sous_forme_de_tableau(tweets))
+
+#tableau=creer_dataframe_sous_forme_de_tableau(tweets)
+#print([str(tableau['Date'][k]) for k in range(len(tweets))])
