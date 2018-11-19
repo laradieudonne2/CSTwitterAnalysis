@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d74b844-996f-4b1e-8442-064ea0cbdeb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/twitterCollect/test_monmodule.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterCollect/test_monmodule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appli_semaine_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appli_debut/essai_wordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/appli_debut/essai_wordcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitterCollect/tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterCollect/tweet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,30 +21,31 @@
     <session id="822897470">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="7" />
-          <entry key="py" value="74" />
-          <entry key="text_twitter" value="1" />
+          <entry key="json" value="9" />
+          <entry key="py" value="93" />
+          <entry key="text_twitter" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="7" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="74" />
+          <entry key="JSON" value="9" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -46,14 +53,14 @@
         <counts>
           <entry key="JSON" value="10" />
           <entry key="PLAIN_TEXT" value="295" />
-          <entry key="Python" value="11737" />
+          <entry key="Python" value="12127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="87" />
           <entry key="json" value="10" />
-          <entry key="py" value="11737" />
+          <entry key="py" value="12127" />
           <entry key="text_twitter" value="170" />
           <entry key="txt" value="38" />
         </counts>
@@ -62,31 +69,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitterCollect/sauvegarde_tweet.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="67">
+              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1542382196949" expanded="true" signature="155:156" ph="..." />
-                <marker date="1542382196949" expanded="true" signature="155:441" ph="..." />
-                <marker date="1542382196949" expanded="true" signature="898:1025" ph="..." />
-                <marker date="1542382196949" expanded="true" signature="1129:1134" ph="..." />
-                <marker date="1542382196949" expanded="true" signature="1504:2077" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitterCollect/test_monmodule.py">
+        <entry file="file://$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="160">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetAnalysis/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#1#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appli_semaine_2/tweet@CentraleSupelec.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterCollect/tweet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_actuality_tweets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetAnalysis/analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-805">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -121,7 +190,6 @@
         <option value="$PROJECT_DIR$/twitterCollect/essai1.json" />
         <option value="$PROJECT_DIR$/twitterCollect/test_dataframe.py" />
         <option value="$PROJECT_DIR$/twitterCollect/test_nomdumoduleatester.py" />
-        <option value="$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py" />
         <option value="$PROJECT_DIR$/tweetAnalysis/test.py" />
         <option value="$PROJECT_DIR$/dash/application.py" />
         <option value="$PROJECT_DIR$/dash/app.py" />
@@ -132,14 +200,18 @@
         <option value="$PROJECT_DIR$/appli_debut/text_twitter" />
         <option value="$PROJECT_DIR$/appli_debut/essai_tweet.py" />
         <option value="$PROJECT_DIR$/appli_debut/mots_tweets.json" />
-        <option value="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" />
         <option value="$PROJECT_DIR$/appli_debut/creation fichier.py" />
         <option value="$PROJECT_DIR$/tweetAnalysis/analyse_interet.py" />
         <option value="$PROJECT_DIR$/tweetAnalysis/analysis.py" />
         <option value="$PROJECT_DIR$/twitterCollect/sauvegarde_tweet.py" />
         <option value="$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py" />
-        <option value="$PROJECT_DIR$/twitterCollect/tweet.py" />
         <option value="$PROJECT_DIR$/twitterCollect/test_monmodule.py" />
+        <option value="$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py" />
+        <option value="$PROJECT_DIR$/appli_debut/essai_wordcloud.py" />
+        <option value="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" />
+        <option value="$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py" />
+        <option value="$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py" />
+        <option value="$PROJECT_DIR$/twitterCollect/tweet.py" />
       </list>
     </option>
   </component>
@@ -155,13 +227,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="twitter_predictor" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitter_predictor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_predictor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_predictor" type="462c0819:PsiDirectoryNode" />
+              <item name="appli_debut" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_predictor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_predictor" type="462c0819:PsiDirectoryNode" />
+              <item name="appli_semaine_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_predictor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_predictor" type="462c0819:PsiDirectoryNode" />
+              <item name="tweetAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twitter_predictor" type="b2602c69:ProjectViewProjectNode" />
@@ -177,6 +263,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,8 +282,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_nomdumoduleatester">
-    <configuration name="test_nomdumoduleatester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.afficher_resultats_analyse">
+    <configuration name="Collect_tweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitter_predictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +291,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterCollect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appli_semaine_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterCollect/test_nomdumoduleatester.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="afficher_resultats_analyse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_predictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweetAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analyse_interet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_predictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweetAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweetAnalysis/analyse_interet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logoCentraleSupelec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_predictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appli_semaine_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,62 +388,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_monmodule.MonTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="twitter_predictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterCollect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_monmodule.MonTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_monmodule.MonTest.test_tweet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="twitter_predictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterCollect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_monmodule.MonTest.test_tweet&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_monmodule.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="twitter_predictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterCollect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/twitterCollect/test_monmodule.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.Collect_tweet" />
+      <item itemvalue="Python.logoCentraleSupelec" />
       <item itemvalue="Python.tweet" />
-      <item itemvalue="Python tests.Unittests for test_monmodule.MonTest.test_tweet" />
-      <item itemvalue="Python tests.Unittests in test_monmodule.py" />
-      <item itemvalue="Python tests.Unittests for test_monmodule.MonTest" />
-      <item itemvalue="Python.test_nomdumoduleatester" />
+      <item itemvalue="Python.analyse_interet" />
+      <item itemvalue="Python.afficher_resultats_analyse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_nomdumoduleatester" />
-        <item itemvalue="Python tests.Unittests for test_monmodule.MonTest" />
-        <item itemvalue="Python tests.Unittests in test_monmodule.py" />
+        <item itemvalue="Python.afficher_resultats_analyse" />
+        <item itemvalue="Python.analyse_interet" />
         <item itemvalue="Python.tweet" />
-        <item itemvalue="Python tests.Unittests for test_monmodule.MonTest.test_tweet" />
+        <item itemvalue="Python.logoCentraleSupelec" />
+        <item itemvalue="Python.Collect_tweet" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +444,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.328125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32514882" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.256651" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.256651" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,29 +518,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_actuality_tweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitterCollect/essai2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="177" selection-start-column="177" selection-end-column="177" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetAnalysis/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterCollect/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,90 +534,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appdash/app.py" />
     <entry file="file://$PROJECT_DIR$/appli_debut/app2.py" />
-    <entry file="file://$PROJECT_DIR$/appli_debut/text_twitter">
+    <entry file="file://$PROJECT_DIR$/TwitterPredictor/credentials.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="154" selection-start-column="154" selection-end-column="154" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appli_debut/app.py">
+    <entry file="file://$PROJECT_DIR$/twitterCollect/test_nomdumoduleatester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appli_debut/mots_tweets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appli_debut/creation fichier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="322">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterCollect/test_monmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweetAnalysis/analysis.py">
+    <entry file="file://$PROJECT_DIR$/twitterCollect/sauvegarde_tweet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="554">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1542381235115" expanded="true" signature="978:1656" ph="..." />
-            <marker date="1542381235115" expanded="true" signature="1954:1959" ph="..." />
-            <marker date="1542381235115" expanded="true" signature="2270:2275" ph="..." />
-            <marker date="1542381235115" expanded="true" signature="2599:3134" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appli_debut/essai_wordcloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1542382196949" expanded="true" signature="155:156" ph="..." />
+            <marker date="1542382196949" expanded="true" signature="155:441" ph="..." />
+            <marker date="1542382196949" expanded="true" signature="898:1025" ph="..." />
+            <marker date="1542382196949" expanded="true" signature="1129:1134" ph="..." />
+            <marker date="1542382196949" expanded="true" signature="1504:2077" ph="..." />
           </folding>
         </state>
       </provider>
@@ -540,60 +589,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterCollect/tweet_collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="34">
           <caret line="8" column="80" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/text_twitter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="154" selection-start-column="154" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/mots_tweets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/essai_wordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/creation fichier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="39" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterPredictor/credentials.py">
+    <entry file="file://$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_semaine_2/tweet@CentraleSupelec.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetAnalysis/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_actuality_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitterCollect/tweet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="372">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterCollect/test_nomdumoduleatester.py">
+    <entry file="file://$PROJECT_DIR$/tweetAnalysis/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-805">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitterCollect/test_monmodule.py">
+    <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterCollect/sauvegarde_tweet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1542382196949" expanded="true" signature="155:156" ph="..." />
-            <marker date="1542382196949" expanded="true" signature="155:441" ph="..." />
-            <marker date="1542382196949" expanded="true" signature="898:1025" ph="..." />
-            <marker date="1542382196949" expanded="true" signature="1129:1134" ph="..." />
-            <marker date="1542382196949" expanded="true" signature="1504:2077" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

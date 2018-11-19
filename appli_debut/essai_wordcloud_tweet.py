@@ -26,7 +26,7 @@ def getFrequencyDictForText(sentence):
 
 
 def makeImage(text):
-    alice_mask = np.array(Image.open(r"C:\Users\Lara DIEUDONNE\Pictures\PochetteCDcommus\twitter_mask.png"))
+    alice_mask = np.array(Image.open(r"C:\Users\Lara DIEUDONNE\Pictures\PochetteCDcommus\logoCS.jpeg"))
 
     wc = WordCloud(background_color="white", max_words=1000, mask=alice_mask)
     # generate word cloud

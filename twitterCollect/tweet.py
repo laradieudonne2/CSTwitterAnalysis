@@ -12,10 +12,13 @@ def collect():
 
 def collect_by_user(user_id):
     connexion = twitter_connection_setup.twitter_setup()
-    statuses = connexion.user_timeline(id = user_id, count = 200)
-    #for status in statuses:
-        #print(status)
+    statuses = connexion.user_timeline(id = user_id, count = 2100, since=992433028155654144)
+
+    for status in statuses:
+
+        print(status)
+
     return statuses
 
-#print(type(collect_by_user("@EmmanuelMacron")))
+print(collect_by_user("@CentraleSupelec"))
 
