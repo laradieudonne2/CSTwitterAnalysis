@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d74b844-996f-4b1e-8442-064ea0cbdeb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appli_semaine_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appli_semaine_2/logoCentraleSupelec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appli_debut/essai_wordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/appli_debut/essai_wordcloud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/appli_debut/essai_wordcloud_tweet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterCollect/tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterCollect/tweet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="9" />
-          <entry key="py" value="93" />
+          <entry key="py" value="94" />
           <entry key="text_twitter" value="2" />
         </counts>
       </usages-collector>
@@ -45,7 +38,7 @@
         <counts>
           <entry key="JSON" value="9" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="93" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -99,18 +92,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appli_semaine_2/Collect_tweet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-              <folding>
-                <element signature="e#1#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appli_semaine_2/tweet@CentraleSupelec.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -137,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
+              <caret line="3" column="72" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -146,16 +127,25 @@
         <entry file="file://$PROJECT_DIR$/tweetAnalysis/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-805">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
+        <entry file="file://$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="281">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -215,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="697" />
@@ -441,7 +431,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32514882" />
@@ -545,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -668,7 +651,7 @@
     <entry file="file://$PROJECT_DIR$/twitterCollect/collect_candidate_tweet_activity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -692,14 +675,21 @@
     <entry file="file://$PROJECT_DIR$/tweetAnalysis/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-805">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tweetAnalysis/analyse_interet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetAnalysis/afficher_resultats_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
